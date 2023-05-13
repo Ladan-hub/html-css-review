@@ -1,5 +1,14 @@
+body {
+    background-image: url(backgroundimage.jpg);
+    background-size: cover;
+}
+
+
 h2 {
-    color: red;
+    color: #AA5439;
+    text-align: center;
+    border: 5px solid rgba(255, 190, 170, 0.5);
+    cursor: pointer;
 }
 
 p {
@@ -9,3 +18,10 @@ p {
 p {
     color: green;
 }
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+
