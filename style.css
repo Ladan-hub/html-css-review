@@ -8,7 +8,7 @@ body {
 }
 
 
-h2, p:hover {
+h2, p {
     color: #AA5439;
     text-align: center;
     border: 5px solid rgba(255, 190, 170, 0.5);
@@ -16,11 +16,11 @@ h2, p:hover {
 }
 
 p {
-    color: pink;
-}
-
-p {
-    color: green;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 80%;
+    font-family: Georgia;
 }
 
 li {
